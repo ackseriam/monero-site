@@ -131,7 +131,7 @@ En Monero, cada salida de transacción está asociada de forma única con una im
 
 También podemos saber que los importes de transacción son válidos, aunque el valor de las entradas que está gastando y el valor de las salidas que está enviando están encriptados (estos están ocultos para todos, excepto para el destinatario). Debido a que las cantidades se encriptan utilizando los compromisos de Pedersen, lo que esto significa es que ningún observador puede decir las cantidades de las entradas y salidas, pero puede hacer cálculos sobre los compromisos de Pedersen para determinar que no se creó Monero de la nada.
 
-Siempre que los importes de salida cifrados que cree sean iguales a la suma de las entradas que se están gastando (que incluyen una salida para el destinatario y una salida de cambio para usted y la tarifa de transacción no cifrada), entonces tiene una transacción legítima y no se sabe que Monero está siendo creado de la nada. Los compromisos de Pedersen significan que las sumas se pueden verificar como iguales, pero el valor Monero de cada una de las sumas y el valor Monero de las entradas y salidas individualmente no se pueden
+Siempre que los importes de salida cifrados que cree sean iguales a la suma de las entradas que se están gastando (que incluyen una salida para el destinatario y una salida de cambio para usted y la tarifa de transacción no cifrada), entonces tiene una transacción legítima y no se sabe que Monero está siendo creado de la nada. Los compromisos de Pedersen significan que las sumas se pueden verificar como iguales, pero el valor Monero de cada una de las sumas y el valor Monero de las entradas y salidas individualmente no se pueden.
 </div>
 
 </div>
